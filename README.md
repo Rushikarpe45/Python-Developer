@@ -1,4 +1,5 @@
 # Python
-This is my first Git Respository
+This is Python Git Respository
 <br>
-Rushikesh karpe
+basic code of python
+
