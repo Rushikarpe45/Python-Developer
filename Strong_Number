@@ -1,0 +1,14 @@
+def Strong_number(n):
+    add=0
+    for i in str(n):
+        fact=1
+        
+        for j in range(1,int(i)+1):
+            fact*=j
+        add+=fact
+    if int(n)==add:
+        print("it is strong number")
+    else:
+        print("it is a not strong number")
+
+Strong_number(input("enter your string:"))
