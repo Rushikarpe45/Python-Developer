@@ -1,0 +1,22 @@
+#program to  print the ininal index of a character in a given string
+# s='programming'
+# index  of g 3
+
+def index():
+    s=input("enter your string:")
+    b=input("extract the index of char:")
+    for i in range (len(s)):
+        print(s.index(b))
+        break
+index()
+
+
+another  way to solve
+def index():
+      s=input("enter your string:")
+      b=input("extract the index of  char:")
+     if b in s:
+          print("index of ",b,"is",s.index(b))
+     else:
+           print("index was not  found ")
+index()
